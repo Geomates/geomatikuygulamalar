@@ -1,0 +1,8 @@
+.wrapper {
+	text-align: left;
+	max-width: 932px;
+	margin: 0px auto;
+	padding-top:120px;
+	background: url(images/logo.png) no-repeat top;
+	position: relative;
+}

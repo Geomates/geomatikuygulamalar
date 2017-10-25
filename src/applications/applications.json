@@ -1,0 +1,9 @@
+[
+    {
+        "Name": "Pafta Bulucu",
+        "Description": "Koordinata ve pafta adına göre arama yapabileceğiniz uygulama.",
+        "Url": "http://www.paftabulucu.com",
+        "Icon": "pafta_bulucu.png",
+        "Type": "Web"
+    }
+]
