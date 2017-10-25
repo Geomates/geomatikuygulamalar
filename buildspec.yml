@@ -1,0 +1,19 @@
+version: 0.1
+phases:
+  install:
+    commands:
+      # Install yarn natively https://yarnpkg.com/en/docs/install#linux-tab
+      - curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+      - echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+      - apt-get update
+      - apt-get install -y yarn
+  pre_build:
+    commands:
+      - yarn
+  build:
+    commands:
+      - yarn run build
+  post_build:
+    commands:
+      - aws s3 sync --delete --exclude assets/* build/ "s3://${BUCKET_NAME}"
+      - aws s3 sync --delete --cache-control "max-age=31536000" build/assets "s3://${BUCKET_NAME}/assets"
