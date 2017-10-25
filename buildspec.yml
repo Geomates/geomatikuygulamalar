@@ -2,7 +2,7 @@ version: 0.1
 phases:
   install:
     commands:
-      - npm install yarn
+      - npm install yarn -g
   pre_build:
     commands:
       - yarn
