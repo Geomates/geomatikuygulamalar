@@ -1,12 +1,12 @@
 # Nasil Uygulama Eklerim?
 
-Geomatik Uygulamalar web sitesine uygulama eklemek oldukca basittir.
+Geomatik Uygulamalar web sitesine uygulama eklemek oldukca basit.
 
 Bunu icin [appplications/applications.json](https://github.com/Geomates/geomatikuygulamalar/blob/master/src/applications/applications.json) dosyasini degistirmeniz ve uygulama ikonunuzu da applications/images altina PNG formatinda koyarak Pull Request ile bu degisikligi gondermeniz gerekiyor.
 
 Yaptiginiz degisiklik istegi tarafimizdan onlaylandiktan sonra hemen yayina girecektir.
 
-##  application.js dosyasina eklenecek JSON objesinin semasi
+##  applications.json dosyasina eklenecek JSON objesinin semasi
 
 ```json
 {
