@@ -13,10 +13,10 @@ class Home extends Component {
         <Divider />
         <Item.Group link>
           {applications.map((app) =>
-              <Item key={app.Name}>
+              <Item key={app.Name} as="a" href={app.Url} target="_blank">
                 <Item.Image size='tiny' src={require('../../applications/images/' + app.Icon)} />
                 <Item.Content>
-                  <Item.Header as="a" href={app.Url} target="_blank">{app.Name}</Item.Header>
+                  <Item.Header>{app.Name}</Item.Header>
                   <Item.Description>{app.Description}</Item.Description>
                 </Item.Content>
               </Item>          

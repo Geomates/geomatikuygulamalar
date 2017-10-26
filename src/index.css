@@ -1,8 +1,10 @@
 .wrapper {
 	text-align: left;
-	max-width: 932px;
+	max-width: 972px;
 	margin: 0px auto;
+	padding-left: 20px;
+	padding-right: 20px;
 	padding-top:120px;
-	background: url(images/logo.png) no-repeat top;
+	background: url(images/logo.png) no-repeat left top;
 	position: relative;
 }
