@@ -24,7 +24,7 @@ class Contact extends Component {
         }
         if (validationMessages.length === 0)
         {
-            axios.post('https://8rphjmkjj2.execute-api.eu-west-1.amazonaws.com/production/gu/contactform', {
+            axios.post('https://api.geomatikuygulamalar.com/gu/production/contact_form', {
                 recaptcha: this.state.recaptcha,
                 email: this.state.email,
                 name: this.state.name,
