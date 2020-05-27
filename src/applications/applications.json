@@ -2,8 +2,15 @@
     {
         "Name": "Pafta Bulucu",
         "Description": "Koordinata ve pafta adına göre arama yapabileceğiniz uygulama.",
-        "Url": "http://www.paftabulucu.com",
+        "Url": "https://www.paftabulucu.com",
         "Icon": "pafta_bulucu.png",
         "Type": "Web"
+    },
+    {
+        "Name": "Kandilli Telegram Deprem Habercisi",
+        "Description": "Chatbot uygulaması. Takipçilerine son depremleri konum ve şiddet filtresine göre haber verir.",
+        "Url": "https://t.me/kandilli_bot",
+        "Icon": "telegram.png",
+        "Type": "Mobile"
     }
 ]

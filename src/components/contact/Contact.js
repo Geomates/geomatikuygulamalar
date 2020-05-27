@@ -68,29 +68,13 @@ class Contact extends Component {
                                         <td>celikn[at]itu[dot]edu[dot]tr</td>
                                     </tr>
                                     <tr>
-                                        <th>Proje Lideri:</th>
+                                        <th>Yazılım Geliştirme:</th>
                                         <td>Mete Ercan Pakdil</td>
                                     </tr>
                                     <tr>
                                         <td/>
                                         <td>mete[at]pakdil[dot]org</td>
                                     </tr>
-                                    <tr>
-                                        <th>GUPA Sorumlusu:</th>
-                                        <td>Ali Senem</td>
-                                    </tr>
-                                    <tr>
-                                        <td/>
-                                        <td>aly.senem[at]hotmail[dot]com</td>
-                                    </tr>
-                                    <tr>
-                                        <th>İletişim Sorumlusu:</th>
-                                        <td>Sevde Pir</td>
-                                    </tr>
-                                    <tr>
-                                        <td/>
-                                        <td>sevdepir[at]gmail[dot]com</td>
-                                    </tr>                                
                                 </tbody>
                             </table>		
                         </Grid.Column>

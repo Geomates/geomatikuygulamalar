@@ -4,8 +4,8 @@
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
-   "icons": [
+  "background_color": "#ffffff",
+  "icons": [
   {
    "src": "\/android-icon-36x36.png",
    "sizes": "36x36",
